@@ -1,0 +1,375 @@
+body {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#menu {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+#menu li {
+  display: inline;
+}
+
+#menu ul {
+  list-style: none;
+}
+
+#menu li a {
+  display: inline-block;
+  width: 120px;
+  text-align: left;
+  padding-left: 8px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 20px;
+  background-image: url("../img/fles.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80px 150px;
+  background-size: cover;
+}
+
+#menu ul a:hover {
+  color: white;
+  transform: scale(1.1);
+  transform: rotate(180deg);
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+#container {
+  background-image: url("../img/woodbackground.jpg");
+  margin-left: 310px;
+  width: 880px;
+  border-radius: 20px;
+}
+
+#container h1 {
+  color: white;
+  padding-left: 40px;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+#container h2 {
+  color: white;
+  font-size: 20px;
+  padding-right: 450px;
+  margin-left: 40px;
+}
+
+#container h3 {
+  color: white;
+  padding-left: 40px;
+}
+
+#container img {
+  height: 220px;
+  width: 200px;
+  margin-bottom: 40px;
+  padding-right: 60px;
+}
+
+#container form {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+#clearfix {
+  clear: both;
+}
+
+.product-image {
+  position: relative;
+  float: left;
+  left: 82px;
+}
+
+.product-price {
+  position: absolute;
+  z-index: 1;
+  top: 206px;
+  text-align: center;
+  width: 60px;
+  height: 30px;
+  right: 60px;
+  color: white;
+  font-size: 17px;
+  background-color: brown;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  vertical-align: middle;
+  line-height: 30px;
+}
+
+.order-button input {
+  position: absolute;
+  z-index: 1;
+  top: 223px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: white;
+  color: brown;
+  border: none;
+  width: 200px;
+  top: 240px;
+  font-size: 20px;
+  outline: 0;
+}
+
+.product-name {
+  color: brown;
+  background-color: white;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#header {
+  margin-top: -36px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 609px;
+}
+
+#header img {
+  margin-left: 200px;
+  margin-bottom: -88px;
+  width: 80px;
+  height: 60px;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-left: 310px;
+  width: 882px;
+  height: 50px;
+  font-size: 8px;
+  padding-top: 6px;
+  margin-top: 8px;
+  border-radius: 10px;
+}
+
+#brand1 {
+  background-image: url("../img/jupiler.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 50px;
+  float: left;
+  border-radius: 20px;
+  cursor: hand;
+  cursor: pointer;
+}
+
+#brand2 {
+  background-image: url("../img/HertogJan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin-right: 80px;
+  margin-top: 20px;
+  float: right;
+  border-radius: 20px;
+  cursor: hand;
+  cursor: pointer;
+}
+
+#brand3 {
+  background-image: url("../img/bavaria.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin-right: 75px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: right;
+  border-radius: 20px;
+  cursor: hand;
+  cursor: pointer;
+}
+
+#googleMap {
+  width: 400px;
+  height: 350px;
+  margin-top: -290px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: right;
+  border-radius: 20px;
+}
+
+input[type=text], [type=email], select, textarea {
+  width: 570px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  resize: vertical;
+  outline: none;
+  font-family: sans-serif;
+}
+
+.container label {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+#send-button {
+  background-color: white;
+  border-radius: 20px;
+  width: 120px;
+  font-size: 20px;
+  color: brown;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  outline: 0;
+  text-align: center;
+}
+
+.container {
+  border-radius: 5px;
+  padding-left: 50px;
+  width: 70%;
+  height: 70%;
+}
+
+#checkout-table {
+  position: relative;
+  color: white;
+  margin-left: 18px;
+  border-spacing: 20px;
+  background-color: white;
+  opacity: 0.6;
+  border-radius: 20px;
+}
+
+.price-higher {
+  color: white;
+}
+
+.price-higher label {
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: "Times New Roman";
+}
+
+.price-higher input {
+  width: 60px;
+  height: 25px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.price-higher input:hover {
+  background-color: rgb(222, 223, 201);
+}
+
+.price-higher [type=submit], [type=number] {
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background-color: white;
+  font-size: 12px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+#checkout-table tr {
+  margin-bottom: 20px;
+}
+
+#checkout-table th {
+  color: black;
+  text-decoration: underline;
+  font-size: 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+#checkout-image img {
+  position: relative;
+  float: left;
+  left: 25px;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 0;
+  z-index: 1;
+}
+
+.checkout-name {
+  color: black;
+  width: 200px;
+  margin-top: 0;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.checkout-descr {
+  color: black;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-top: 0;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.checkout-price {
+  color: black;
+  width: 200px;
+  text-align: center;
+  margin-top: 0;
+  font-size: 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+tfoot {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.totalprice {
+  margin-right: -886px;
+}
